@@ -1,5 +1,7 @@
 body {
+  background-color: coral;
   font-family: "Oswald", sans-serif;
+  margin: 0%;
 }
 h1 {
   font-size: 50px;
@@ -13,6 +15,7 @@ p {
 }
 section {
   display: flex;
+  margin-bottom: 20%;
 }
 .toxin {
   width: 50%;
@@ -23,9 +26,18 @@ section {
 }
 .edith {
   text-decoration: none;
-  background-color: orangered;
+  background-color: blueviolet;
   padding: 10px 40px;
   color: whitesmoke;
   font-weight: 700;
   border-radius: 5px;
+}
+.tom {
+  display: flex;
+  height: 700px;
+  width: 200px;
+}
+.riot {
+  display: flex;
+  padding-right: 100px;
 }
