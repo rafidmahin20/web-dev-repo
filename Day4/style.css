@@ -1,6 +1,31 @@
-html {
-  background-color: brown;
+body {
+  font-family: "Oswald", sans-serif;
+}
+h1 {
+  font-size: 50px;
 }
 strong {
   color: chartreuse;
+}
+p {
+  font-weight: 100;
+  text-align: justify;
+}
+section {
+  display: flex;
+}
+.toxin {
+  width: 50%;
+  padding-left: 5%;
+}
+.toxin img {
+  width: 90%;
+}
+.edith {
+  text-decoration: none;
+  background-color: orangered;
+  padding: 10px 40px;
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 5px;
 }
